@@ -1,0 +1,367 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.redbutton{
+  color: black;
+  background-color: black;
+}
+.cart{
+padding-right: px;
+padding-top: 10px;
+}
+.hea{
+  background-color: darkslateblue;
+}
+.logoimage{
+height:20px;
+}
+
+.pep{
+padding-left: 30px;
+margin-top: -25px;
+}
+*{
+  border-radius: 0 !important;
+}
+.head{
+  display:flex;
+  color: aliceblue;
+}
+
+.navnav{
+  padding-left: 500px !important;
+}
+
+.logo{
+  margin-bottom: 10px;
+}
+.content{
+  padding: 12px;
+  height: 2000px;
+}
+
+.anchor{
+  display:block;
+  position: relative;
+  visibility: hidden;
+  top: 78px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.arrow{
+  position: absolute;
+}
+
+.head{
+  background-image: url(../pictures/background/darkbackground.jpg);
+  padding: 80px;
+  background-size: contain;
+}
+
+.advimg{
+  border-radius: 32px !important;
+  position: relative;
+  animation: slide 30s linear infinite;
+}
+
+.nikes{
+  color: aliceblue;
+  font-family:'Courier New', Courier, monospace ;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border: grey; 
+  width: 110px;
+ margin-left: 10px;
+ animation: slide 30s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0px, 0, 0);
+  }
+  100%{
+    transform: translate3d(1000px, 0, 0px);
+  }
+}
+
+.headerimage{
+width: 900px;
+overflow: hidden;
+}
+
+.btn1{
+  padding-bottom: 5px;
+}
+
+
+.btn2{
+  padding-top: 5px;
+}
+
+p{
+  font-family:'Courier New', Courier, monospace ;
+}
+
+.content{
+ display: flex;
+}
+
+h1{
+  color: aliceblue;
+  font-family:'Courier New', Courier, monospace ;
+  
+  width: 50px;
+  float:right;
+}
+
+
+
+@media (min-width:400px) and (max-width:600px)
+{
+.advimg {
+margin-bottom: 20px;
+border-radius: 7px !important;
+}
+
+.nikes{
+  color: aliceblue;
+  font-family:'Courier New', Courier, monospace ;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border: grey; 
+  width: 110px;
+ margin-left: 10px;
+ animation: slide 30s linear infinite;
+}
+
+}
+
+.row{
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+}
+
+
+
+
+/*.rowholder{
+  overflow: scroll;
+}
+*/
+
+/*.rowholder::-webkit-scrollbar{
+display:none ;
+}
+*/
+
+.row .col-md-3{
+  
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    object-fit: cover;
+    width: 250px;
+    height: 430px;
+  }
+
+
+.productcard{
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  background-color: whitesmoke;
+  padding: 30px;
+  width: 600px;
+  padding-left: 10px;
+  margin-left: 40px;
+ margin-top: 10px;
+  margin-bottom: 10px;
+  align-content: center;
+  border-radius: 10px !important;
+ min-height: max-content;
+ text-align: center;
+ position: relative;
+ height: 500px;
+}
+
+
+
+.productdetail{
+  display: flex;
+}
+.otherdetails{
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.females{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  min-width: max-content;
+}
+
+.femaleholder::-webkit-scrollbar{
+  display: none;
+}
+
+.femaleholder{
+  overflow: scroll;
+  padding-left: 15px;
+}
+
+
+.Menproductcard{
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  flex-basis: 225px;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 200px;
+  padding-left: 10px;
+  margin-left: 10px;
+ margin-top: 10px;
+  margin-bottom: 10px;
+  align-content: center;
+  border-radius: 10px !important;
+ min-height: max-content;
+ text-align: center;
+ position: relative;
+ height: 350px;
+}
+
+.males{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  min-width: max-content;
+}
+
+.maleholder::-webkit-scrollbar{
+  display: none;
+}
+
+.maleholder{
+  overflow: scroll;
+  padding-left: 15px;
+}
+
+
+.shoecard{
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  flex-basis: 225px;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 200px;
+  padding-left: 10px;
+  margin-left: 10px;
+ margin-top: 10px;
+  margin-bottom: 10px;
+  align-content: center;
+  border-radius: 10px !important;
+ min-height: max-content;
+ text-align: center;
+ position: relative;
+ height: 200px;
+}
+
+.shoes{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  min-width: max-content;
+}
+
+span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.shoeholder::-webkit-scrollbar{
+  display: none;
+}
+
+.shoeholder{
+  overflow: scroll;
+  padding-left: 15px;
+}
+
+.electronicholder{
+  overflow: scroll;
+}
+
+.Electrons{
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  flex-basis: 225px;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 200px;
+  padding-left: 10px;
+  margin-left: 10px;
+ margin-top: 10px;
+  margin-bottom: 10px;
+  align-content: center;
+  border-radius: 10px !important;
+ min-height: max-content;
+ text-align: center;
+ position: relative;
+ height: 280px;
+ white-space: nowrap;
+ overflow: hidden;
+}
+
+.electronics{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  min-width: max-content;
+}
+
+.electronicholder::-webkit-scrollbar{
+  display: none;
+}
+
+.electronicholder{
+  overflow: scroll;
+  padding-left: 15px;
+}
+
+h4{
+  padding-left: 30px;
+}
+
+.productvariant{
+
+width: 500px;
+height: 400px;
+color: black;
+background-color: darkcyan;
+justify-content: center;
+align-items: center;
+
+}
+
+ /*
+ ADD ON HOVER EFFECT
+ ONCLICK BRING OTHER PICTURES OF THE SAME PRODUCT AND BUTTON TO PURCHASE
+*/
+
+section {
+
+}

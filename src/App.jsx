@@ -5,7 +5,7 @@ import Products from "./Products";
 import Product from "./Product";
 import Home from "./Home";
 import { useSelector } from "react-redux";
-import Cart from "./Cart"
+import Cart from "./cart"
 
 
 function App() {
